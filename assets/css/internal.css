@@ -1,12 +1,10 @@
-@import url('reset.css');
-@import url('global.css');
-@import url('components/_navigator.css');
+@import "reset.css";
 
 .s-wrapper {
   display: flex;
   height: 100vh;
-  flex-flow: row nowrap; 
-  background-color: aqua; 
+  flex-flow: row nowrap;
+  background-color: aqua;
 }
 
 .s-wrapper .s-left-column {
@@ -18,9 +16,22 @@
   align-items: center;
 }
 
-.s-wrapper .s-main-content{
+.s-wrapper .s-main-content {
+  width: 100px;
   height: 100%;
-  width: 100%;
   background-color: gray;
   padding-left: 30px;
+}
+
+.navigator {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.navigator ul li {
+  margin: 60px 0;
 }
