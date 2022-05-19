@@ -85,16 +85,16 @@
 }
 
 .s-spiderman-01-01 {
-  background-image: url('../images/spiderman-tobey/movie-01/background.png');
+  background-image: url('images/spiderman-tobey/movie-01/background.png');
   background-size:cover;
 }
 
 .s-spiderman-01-02 {
-  background-image: url('../images/spiderman-tobey/movie-02/background.png');
+  background-image: url('images/spiderman-tobey/movie-02/background.png');
   background-size: cover;
 }
 
 .s-spiderman-01-03 {
-  background-image: url('../images/spiderman-tobey/movie-03/background.png');
+  background-image: url('images/spiderman-tobey/movie-03/background.png');
   background-size: cover;
 }
