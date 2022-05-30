@@ -1,3 +1,4 @@
+
 .navigator {
   height: 80vh;
   display: flex;
@@ -22,8 +23,8 @@
 .navigator ul li a{
   color: white;
   border: solid 2px white;
-  width:45px;
-  height:45px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: black;
   display: flex;
@@ -31,7 +32,7 @@
   justify-content: center;
 }
 
-.navigator::before {
+.navigator::before{
   content: '';
   position: absolute;
   top: 0;
@@ -41,7 +42,7 @@
   z-index: 0;
 }
 
-.navigator ul{
+.navigator ul {
   z-index: 1;
 }
 
@@ -55,3 +56,4 @@
   position: absolute;
   top: -20px;
 }
+
