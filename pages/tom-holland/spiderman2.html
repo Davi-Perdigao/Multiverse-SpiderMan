@@ -1,64 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spider Man | Multiverso</title>
-  <link href="assets/css/internal.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/css/internal.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
   <div class="s-wrapper">
     <video autoplay loop>
-      <source src="assets/videos/spiderman-2017-trailer.mp4" type="video/mp4" />
+      <source src="../../assets/videos/spiderman2-2019-trailer.mp4" type="video/mp4" />
     </video>
     <!--  Coluna da esquerda com menu (Left Column with menu)  -->
     <div class="s-left-column">
       <nav class="navigator">
         <div class="navigator__icon">
-          <a href="index.html">
-            <img src="assets/images/icons/spiderman1-tom.png" />
+          <a href="../../index.html">
+            <img src="../../assets/images/icons/spiderman1-tom.png" />
           </a>
         </div>
         <ul>
-          <li><a href="#01" class="active">01</a></li>
-          <li><a href="spiderman2.html">02</a></li>
+          <li><a href="spiderman1.html">01</a></li>
+          <li><a href="#02" class="active">02</a></li>
           <li><a href="spiderman3.html">03</a></li>
         </ul>
       </nav>
     </div>
     <!-- FIM - Coluna da esquerda com menu (Left Column with menu)  -->
 
-    <div class="s-main-content">
+    <div class="s-main-content #s-spiderman-03-02">
       <div class="s-main-content__top">
         <div class="s-logo">
-          <img src="assets/images/spiderman-tom/movie-01/logo.png" alt="Spiderman (2002)"
-            title="Spiderman (2002)" />
+          <img src="../../assets/images/spiderman-tom/movie-02/logo.png" alt="Spiderman 2 (2005)"
+            title="Spiderman 2 (2005)" />
         </div>
 
         <div class="s-description">
           <div class="pills">
             <ul>
-              <li>Ano: 2002</li>
-              <li>Diretor: Sam Raimi</li>
+              <li>Ano: 2019</li>
+              <li>Diretor: Jon Watts</li>
             </ul>
           </div>
           <div class="s-description__text">
-            <p><strong>Sinopse:</strong>&nbsp;Depois de ser picado por uma aranha geneticamente modificada em uma
-              demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los
-              para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém,
-              ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes
-              para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico
-              Duende Verde.</p>
+            <p><strong>Sinopse:</strong>&nbsp;Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de
+              seus amigos de colégio,
+              quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa
+              enfrentar vários vilões que
+              surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático
+              Mysterio.</p>
           </div>
         </div>
 
         <div class="s-links">
           <ul>
             <li>
-              <a href="https://www.youtube.com/watch?v=TYMMOjBUPMM" class="link-button" target="_blank">
+              <a href="https://www.youtube.com/watch?v=Nt9L1jCKGnE" class="link-button" target="_blank">
                 <span class="icon">
                   <div class="play-icon">&nbsp;</div>
                 </span>
@@ -74,14 +76,30 @@
       <div class="s-main-content__bottom">
         <div class="gallery">
           <ul>
-            <li><a href="#"><img src="assets/images/spiderman-tom/movie-01/gallery/image-01.png" alt=""></a></li>
-            <li><a href="#"><img src="assets/images/spiderman-tom/movie-01/gallery/image-02.png" alt=""></a></li>
-            <li><a href="#"><img src="assets/images/spiderman-tom/movie-01/gallery/image-03.png" alt=""></a></li>
-            <li><a href="#"><img src="assets/images/spiderman-tom/movie-01/gallery/image-04.png" alt=""></a></li>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-tom/movie-02/gallery/image-01-full.jpg">
+                <img src="../../assets/images/spiderman-tom/movie-02/gallery/image-01.png" alt=""></a>
+            </li>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-tom/movie-02/gallery/image-02-full.jpg">
+                <img src="../../assets/images/spiderman-tom/movie-02/gallery/image-02.png" alt=""></a>
+            </li>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-tom/movie-02/gallery/image-03-full.jpg">
+                <img src="../../assets/images/spiderman-tom/movie-02/gallery/image-03.png" alt=""></a>
+            </li>
+            <li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script>
+    $(document).ready(function () {
+
+    });
+  </script>
 </body>
+
 </html>
